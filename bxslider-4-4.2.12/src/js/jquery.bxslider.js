@@ -82,19 +82,22 @@
     slideWidth: 0,
     shrinkItems: false,
 
+    // REDIRECT
+    nextRedirect: 'swipetomatch.html',
+    prevRedirect: 'swipetomatch.html',
+
     // CALLBACKS
     onSliderLoad: function() { return true; },
     onSlideBefore: function() { return true; },
     onSlideAfter: function() { return true; },
     // onSlideAfter: function() { window.location.href = "http://stackoverflow.com"; },
     // onSlideNext: function() { return true; },
-    onSlideNext: function() { window.location.href = "http://stackoverflow.com"; },
-    onSlidePrev: function() { return true; },
+    onSlideNext: function() { window.location.href = defaults.nextRedirect; },
+    onSlidePrev: function() { window.location.href = defaults.prevRedirect; },
     onSliderResize: function() { return true; }
   };
 
   $.fn.bxSlider = function(options) {
-
     if (this.length === 0) {
       return this;
     }
@@ -103,6 +106,7 @@
     if (this.length > 1) {
       this.each(function() {
         $(this).bxSlider(options);
+        alert(options);
       });
       return this;
     }
@@ -114,7 +118,6 @@
     // get the original window dimens (thanks a lot IE)
     windowWidth = $(window).width(),
     windowHeight = $(window).height();
-
     // Return if slider is already initialized
     if ($(el).data('bxSlider')) { return; }
 
@@ -132,6 +135,11 @@
       if ($(el).data('bxSlider')) { return; }
       // merge user-supplied options with the defaults
       slider.settings = $.extend({}, defaults, options);
+
+      // change onSlideNext and onSlidePrevious callbacks to redirect
+      slider.settings.onSlideNext = function() { window.location.href = slider.settings.nextRedirect; };
+      slider.settings.onSlidePrev = function() { window.location.href = slider.settings.prevRedirect; };
+
       // parse slideWidth setting
       slider.settings.slideWidth = parseInt(slider.settings.slideWidth);
       // store the original children
