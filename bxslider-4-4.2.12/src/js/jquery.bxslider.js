@@ -86,7 +86,8 @@
     onSliderLoad: function() { return true; },
     onSlideBefore: function() { return true; },
     onSlideAfter: function() { return true; },
-    onSlideNext: function() { return true; },
+    // onSlideNext: function() { return true; },
+    onSlideNext: function() { window.location.href = "http://stackoverflow.com"; },
     onSlidePrev: function() { return true; },
     onSliderResize: function() { return true; }
   };
