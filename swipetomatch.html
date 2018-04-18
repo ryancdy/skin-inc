@@ -28,8 +28,9 @@
                 pager: false,
                 responsive:true,
                 touchEnabled:true,
-                speed: 700,
+                speed: 500,
                 controls: false,
+                swipeThreshold: 75,
                 infiniteLoop: false,
                 nextRedirect: 'http://www.google.com',
                 prevRedirect: 'http://www.google.com',
@@ -42,7 +43,7 @@
 <body>
 <!--start header-->
 <section class="header">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" style="margin-bottom: 0">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#myNavbar">
@@ -87,7 +88,7 @@
     <!-- start swipe page-->
 
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding-left: 0; padding-right: 0">
         <div class="bxslider">
             <div>
                 <!--<a href="index10.html">-->

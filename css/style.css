@@ -367,7 +367,7 @@ body{
 /* end fifth page */
 /* start sixth page*/
 .swipe{
-    padding: 180px 0 20px 0;
+    padding: 180px 10px 20px 10px;
 }
 .swipe a{
     color: #363636;
