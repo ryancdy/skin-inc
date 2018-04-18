@@ -1,0 +1,692 @@
+body{
+    padding: 0;
+    margin: 0;
+     font-family: Avenir;
+    font-size: 14px;
+    max-width: 100%;
+
+}
+/* start header */
+
+.navbar-brand {float:center;}
+.avenir{
+      font-family: Avenir;
+      font-size: 24px;
+      color: black;
+
+      }
+      .avenirp{
+      line-height: 25px;
+      font-family: Avenir Roman;
+      font-size: 14px;
+      color: black;
+      }
+      .avenirb{
+        font-family: Avenir Roman;
+        font-size: 10px;
+        color: black;
+      }
+      .avenir_always{
+        font-family: Avenir Roman;
+        font-size: 30px;
+        color: black;
+        line-height: 30px;
+      }
+      .avenir_get{
+      line-height: 30px;
+      font-family: Avenir Roman;
+      font-size: 14px;
+      color: black;
+      }
+      .avenir_success{
+      line-height: 26px;
+      font-family: Avenir bold;
+      font-size: 22px;
+      }
+      .modal-title{
+      font-family: Avenir;
+      font-weight: bold;
+
+      }
+      .modal-body{
+         font-family: Avenir;
+         line-height: 14px;
+         font-size: 12px;
+      }
+      .modal-footer{
+        font-family: Avenir;
+        background-color: gray;
+      }
+      .btn-default{
+        background-color: #38393a;
+        color: white;
+      }
+      .avenir_16{
+      line-height: 14px;
+      font-family: Avenir;
+      font-size: 16px;
+      font-weight: bold;
+      }
+      .avenir_18{
+      line-height: 14px;
+      font-family: Avenir;
+      font-size: 18px;
+      color: black;
+      }
+      .avenir_11{
+      line-height: 18px;
+      font-family: Avenir;
+      font-size: 11px;
+      }
+      .avenir_12{
+      line-height: 14px;
+      font-family: Avenir;
+      font-size: 12px;
+      }
+      .avenir_10{
+      line-height: 14px;
+      font-family: Avenir medium;
+      font-size: 10px;
+      }
+      .avenir_8{
+        font-family: Avenir medium;
+        font-size: 8;
+      }
+      .avenir_30{
+      line-height: 34px;
+      font-family: Avenir;
+      font-weight: bold;
+      font-size: 30px;
+      }
+      .avenir_15{
+      line-height: 16px;
+      font-family: Avenir medium;
+      font-size: 15px;
+      }
+      .avenir_20{
+      font-family: Avenir;
+      font-weight: bold;
+      font-size: 20px;
+      }
+      .avenir_40{
+      font-family: Avenir;
+      line-height: 45px;
+      font-size: 40px;
+      color: black;
+      }
+
+.menu{
+    padding-top: 18px;
+}
+.header{
+    background-color: #fff;
+    padding-top: 10px;
+}
+.login{
+    padding-top: 18px;
+}
+.login ul{
+    padding-left: 0;
+}
+.login ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+.login ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #535252;
+}
+/* end header */
+/* start banner */
+.banner{
+   background-image: url(../images/banner3.jpg);
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-top: 0px;
+}
+.banner1{
+   background-image: url(../images/background.png);
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    padding-top: 0px;
+}
+.start{
+    padding: 50px 0;
+}
+.start p{
+    font-weight: bolder;
+}
+.btn-start{
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #727171;
+    font-weight: bolder;
+}
+/* end banner */
+/* start beauty tips */
+.beauty-tips{
+    
+    border-bottom: 1px solid #777373;
+    padding: 50px;
+}
+/* end beauty tips */
+/* start community */
+.community{
+   
+    padding: 60px;
+}
+/* end community */
+/* star 2nd page */
+.beauty-tip{
+    background-image: url(../images/home/Group3.png);
+    border-bottom: 1px solid #777373;
+    padding: 70px;
+   max-width: 100%;
+}
+/* end beauty tips */
+.beautyTips{
+    background-image: url();
+    background-color: gray;
+    font-family: Avenir Roman;
+         line-height: 25px;
+         padding: 35px;
+}
+.lifeStyle{
+    background-image: url();
+    background-color: gray;
+    font-family: Avenir Roman;
+         line-height: 25px;
+         padding: 35px;
+}
+/* start community */
+.communit{
+    background-image: url(../images/home/Group4.png);
+    padding: 70px;
+   max-width: 100%;
+}
+/* end community */
+/* star 2nd page */
+.profile{
+      background-image: url(../images/banner.jpg);
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 1000px;
+    padding-top: 20px;
+}
+.picture{
+    background-color: #252525;
+    padding: 20px 20px 80px 20px;
+    margin: 0 auto;
+}
+.picture h4{
+    color: #fff;
+    font-weight: bolder;
+}
+.view-pic img{
+    width: 100%;
+}
+.pic-para{
+    color: #fff;
+    font-weight: bolder
+}
+.return{
+    padding-top: 40px;
+}
+.return a{
+    color: #fff;
+}
+.btn-skinInc{
+    background-color: #363636; /* Green */
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    
+}
+.btn-find{
+  background-color: #363636; /* Green */
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+}
+/* end 2nd page */
+/* start 3rd page */
+.image{
+     background-image: url(../images/selfie.png);
+   background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+    position: relative;
+}
+.opacity{
+     background: rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+    height: 560px;
+}
+.camera{
+    padding: 20px;
+}
+.camera img{
+    width:40px;
+    margin-left: 20px;
+}
+.capture{
+    margin-top: 470px;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-capture{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 8px solid #e2dddd;
+}
+.capture-image{
+    position: absolute;
+    top: 20px;
+}
+.capture-image img{
+    width: 270px;
+}
+/* end 3rd page */
+/* start fourth page*/
+.skin-first{
+    padding: 20px 0 20px 0;
+}
+.skin-first img{
+    width: 50%;
+}
+.skin-second{
+    padding: 20px 0 20px 0;
+}
+.skin-second img{
+    width: 50%;
+}
+..skin-third{
+    padding: 20px 0 20px 0;
+}
+.skin-third img{
+    width: 50%;
+}
+.next{
+    padding: 20px 0 20px 0;
+}
+.next a{
+    text-decoration: none;
+    color:#080000;
+}
+/* end fourth page*/
+/* start fifth page */
+.consultation{
+    background-color: #363636;
+    padding: 5px;
+    color: #fff;
+}
+.form-input{
+    padding: 20px 0 20px 0;
+}
+.checkbox-size::checkbox{
+    font-size: 20px;
+    color: aqua;
+}
+.btnsubmit{
+    padding: 10px;
+}
+.btn-submit{
+    background-color: #363636; /* Green */
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    
+    margin: 2px;
+    cursor: pointer;
+}
+/* end fifth page */
+/* start sixth page*/
+.swipe{
+    padding: 20px 0 20px 0;
+}
+.swipe a{
+    color: #363636;
+    text-decoration: none;
+    
+}
+/* end sixth page*/
+/* start seventh page*/
+.logo-banner{
+    margin: 100px 0 10px 0;
+}
+.logo-banner img{
+    width: 30%;
+}
+/* end seventh page*/
+/* start media query */
+@media only screen and (max-width: 480px) {
+    .skin h2{
+       font-size: 24px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .skin h2{
+       font-size: 20px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .skin h2{
+       font-size: 18px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .skin h2{
+       font-size: 16px;
+    }
+}
+@media only screen and (max-width: 480px) {
+   .btn-skinInc{
+    padding: 15px 10px;
+       font-size: 12px;
+       width: 48%;
+}
+    .btn-find{
+    padding: 15px 10px;
+        font-size: 12px;
+        width: 48%;
+}
+}
+/* end media query */
+
+.containers {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.containers1 {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containers1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #474643;
+}
+.checkmark1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.containers1:hover input ~ .checkmark {
+    background-color: #363636;
+}
+.containers1:hover input ~ .checkmark1 {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containers1 input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.containers1 input:checked ~ .checkmark1 {
+    background-color: #2;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.containers1 input:checked ~ .checkmark:after {
+    display: block;
+}
+.containers1 input:checked ~ .checkmark1:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.containers1 .checkmark:after {
+    left: 3px;
+    top: 0px;
+    width: 3px;
+    height: 5px;
+    border: solid #fff;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.containers1 .checkmark1:after {
+    left: 3px;
+    top: 0px;
+    width: 5px;
+    height: 12px;
+    border: solid red;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+
+/*
+Basic input element using psuedo classes
+*/
+input,
+label,
+textarea {
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 22px;
+}
+
+textarea:focus,
+input:focus {
+  outline: 0;
+}
+/* Question */
+
+input.question,
+textarea.question {
+  
+  font-weight: 300;
+  border-radius: 2px;
+  margin: 0;
+  border: none;
+  width: 80%;
+  background: rgba(0, 0, 0, 0);
+  transition: padding-top 0.2s ease, margin-top 0.2s ease;
+  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+}
+/* Underline and Placeholder */
+
+input.question + label,
+textarea.question + label {
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  width: 10%;
+  border-top: 1px solid red;
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+  height: 0px;
+}
+
+input.question:focus + label,
+textarea.question:focus + label {
+  width: 80%;
+}
+
+input.question:focus,
+input.question:valid {
+  padding-top: 30px;
+}
+
+textarea.question:valid,
+textarea.question:focus {
+  margin-top: 30px;
+}
+
+input.question:focus + label > span,
+input.question:valid + label > span {
+  top: -100px;
+  font-size: 12px;
+  color: #333;
+}
+
+textarea.question:focus + label > span,
+textarea.question:valid + label > span {
+  top: -150px;
+  font-size: 12px;
+  color: #333;
+}
+
+input.question:valid + label,
+textarea.question:valid + label {
+  border-color: green;
+}
+
+input.question:invalid,
+textarea.question:invalid {
+  box-shadow: none;
+}
+
+input.question + label > span,
+textarea.question + label > span {
+  font-weight: 300;
+  margin: 0;
+  position: absolute;
+  color: #8F8F8F;
+  
+  top: -66px;
+  left: 0px;
+  z-index: -1;
+  -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+}
+
+
+
+@-webkit-keyframes appear {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  100% {
+    opacity: 1;
+  }
+}
+/*start page 10*/
+.glyphicon.glyphicon-remove-sign {
+    font-size: 35px;
+}
+.glyphicon.glyphicon-minus-sign {
+    font-size: 35px;
+}
+.glyphicon.glyphicon-ok-sign {
+    font-size: 35px;
+}
+/*level2 start*/
+.images{
+     background-image: url(../images/level2/level2.1.jpg);
+   background-position: center;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.col-lg-12{
+  background-color:lavender;
+  font-size: 20px;
+  border-bottom: 1px solid gray;
+}
+.glyphicon.glyphicon-circle-arrow-right{
+float: center;
+font-size: 25px;
+
+}
+a:link{
+  color:#3a3b3d;
+}
+a:visited{
+  color:#3a3b3d;
+}
+a:hover{
+  color:#3a3b3d;
+}
+a:focus{
+  color:#3a3b3d;
+}
+a:active{
+  color:#3a3b3d;
+  text-decoration:none; 
+}
