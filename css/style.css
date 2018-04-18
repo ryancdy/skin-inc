@@ -152,11 +152,11 @@ body{
 .banner1{
    background-image: url(../images/background.png);
    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+   background-size: cover;
+   background-repeat: no-repeat;
     height: 700px;
-    width: 100%;
-    padding-top: 0px;
+   width: 100%;
+   padding-top: 0px;
 }
 .start{
     padding: 50px 0;
