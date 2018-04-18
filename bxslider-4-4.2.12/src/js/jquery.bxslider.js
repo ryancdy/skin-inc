@@ -83,17 +83,18 @@
     shrinkItems: false,
 
     // REDIRECT
+    redirect: 'swipetomatch.html',
     nextRedirect: 'swipetomatch.html',
     prevRedirect: 'swipetomatch.html',
 
     // CALLBACKS
     onSliderLoad: function() { return true; },
     onSlideBefore: function() { return true; },
-    onSlideAfter: function() { return true; },
-    // onSlideAfter: function() { window.location.href = "http://stackoverflow.com"; },
-    // onSlideNext: function() { return true; },
-    onSlideNext: function() { window.location.href = defaults.nextRedirect; },
-    onSlidePrev: function() { window.location.href = defaults.prevRedirect; },
+    // onSlideAfter: function() { return true; },
+    onSlideAfter: function() { window.location.href = "http://stackoverflow.com"; },
+    onSlideNext: function() { return true; },
+    // onSlideNext: function() { window.location.href = defaults.nextRedirect; },
+    onSlidePrev: function() { return true; },
     onSliderResize: function() { return true; }
   };
 
@@ -137,8 +138,9 @@
       slider.settings = $.extend({}, defaults, options);
 
       // change onSlideNext and onSlidePrevious callbacks to redirect
-      slider.settings.onSlideNext = function() { window.location.href = slider.settings.nextRedirect; };
-      slider.settings.onSlidePrev = function() { window.location.href = slider.settings.prevRedirect; };
+      // slider.settings.onSlideNext = function() { window.location.href = slider.settings.nextRedirect; };
+      // slider.settings.onSlidePrev = function() { window.location.href = slider.settings.prevRedirect; };
+      slider.settings.onSlideAfter = function() { window.location.href = slider.settings.redirect; };
 
       // parse slideWidth setting
       slider.settings.slideWidth = parseInt(slider.settings.slideWidth);
